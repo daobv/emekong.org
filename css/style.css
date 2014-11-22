@@ -78,7 +78,7 @@ table {
 .breadcumb a{color: #28619b;text-decoration: none;position: relative;padding-right: 20px;}
 .breadcumb a:before{position: absolute;top:3px;right: 4px;border-top: 4px solid transparent;border-bottom: 4px solid transparent;border-left:6px solid #28619b;width: 0;height: 0;content: ''}
 /*duan*/
-.container{padding: 20px;background: #fff;}
+.container{padding: 20px;background: #fff;overflow: hidden;}
 .wrapper{background: #e6e7e8;}
 .content-duan{float: left;width: 786px;}
 .side-bar{float: right;width: 253px;margin-right: 13px;}
@@ -96,3 +96,20 @@ table {
 .side-bar .box .box-side-bar li p{}
 .find-project {background: #e6e6e7;border: 2px solid #a5a6ac;border-radius: 10px;}
 .find-project-content .find-box{clear: both;padding: 0 22px;}
+
+/*project detail*/
+.detail-miss{margin: 20px 0 8px;}
+.detail-miss img{display: inline-block;vertical-align: top;width: 203px;height: 150px;}
+.detail-miss-content{display: inline-block;vertical-align: top;width: 530px;margin-left: 20px;}
+.detail-miss-content h6{color:#003b90;font-size: 16px;font-weight: bold}
+.detail-miss-content-box{margin-top:11px;}
+.detail-miss-content-box .name{color: #3b78bb}
+.detail-main ul{background: #055699;border-radius: 10px;clear: both;overflow: hidden;}
+.detail-main li{float: left;padding: 0 25px 0 10px;height: 40px;line-height: 40px;}
+.detail-main li a{color: #fff;text-decoration: none;font-weight: bold;font-size: 13px;}
+.detail-main li.ui-tabs-active a{padding: 0 5px;display: block;color: #19277a;background: #fff;border-top-left-radius: 5px;border-top-right-radius: 5px;margin-top:5px;line-height: 35px;font-size: 13px;}
+.detail-main .page-title h6{color: #000;font-weight: bold;}
+.detail-main .tab-content{margin-top:10px;color: #000;}
+.detail-main .tab-content .product-image{margin: 10px 0}
+.detail-main .tab-content .product-image img{margin: 0 auto;width: 656px;display: block;}
+.detail-main .tab-content .product-image p{text-align: center;font-style: italic;font-weight: bold;color: #000;padding: 15px 0}
