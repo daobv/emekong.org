@@ -1,0 +1,73 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size: 12.5px;
+	font-family: arial;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*breadcumb*/
+.page-title.active{clear: both;border-bottom: 3px solid #28619b;}
+.page-title.active h4{display: block;color: #fff;text-transform: uppercase;background: #28619b;height: 23px;line-height: 26px;border-top-left-radius: 10px;border-top-right-radius: 10px;padding-left: 15px;width: 179px;font-weight: bold;}
+.head-page .breadcumb{float:left;}
+.head-page .language{float: right}
+.breadcumb a{color: #28619b;text-decoration: none;position: relative;padding-right: 20px;}
+.breadcumb a:before{position: absolute;top:3px;right: 4px;border-top: 4px solid transparent;border-bottom: 4px solid transparent;border-left:6px solid #28619b;width: 0;height: 0;content: ''}
+/*duan*/
+.container{width: 1067;margin: 0 auto;padding: 20px;background: #fff;}
+.wrapper{background: #e6e7e8;}
+.content-duan{float: left;width: 786px;}
+.side-bar{float: right;width: 253px;margin-right: 13px;}
+.content-duan .item{padding: 11px 0 15px;border-bottom: 2px solid #e6e6e6;clear: both;width: 100%}
+.content-duan .item .item-image{display: inline-block;vertical-align: top;}
+.content-duan .item .item-image img,.content-duan .item .item-image iframe{border: 1px solid #e6e6e6;width: 125px;height: 94px;}
+.content-duan .item .item-content{display: inline-block;vertical-align: top;width: 605px;margin-left: 37px;}
+.content-duan .item .item-content .item-content-title{font-weight: bold;color: #3a00cf;padding-bottom: 15px;}
+.content-duan .item .item-content .item-content-main li{float: left;width: 50%;padding-bottom: 12px;}
+.item-content-label{font-weight: bold;color: #000;}
+.side-bar .title{font-weight: bold;color: #fff;background: #055699;text-transform: uppercase;height: 28px;line-height: 28px;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;}
+.side-bar .box{margin-bottom: 15px;}
+.side-bar .box .box-side-bar{padding: 0 15px;background-color: #c1e1fb;}
+.side-bar .box .box-side-bar li{border-bottom: 1px solid #fff;padding: 6px 0;}
+.side-bar .box .box-side-bar li p{}
+.find-project {background: #e6e6e7;border: 2px solid #a5a6ac;border-radius: 10px;}
+.find-project-content .find-box{clear: both;padding: 0 22px;}
