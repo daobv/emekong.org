@@ -1,3 +1,15 @@
+/*font icon*/
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../font/fontawesome-webfont.eot?v=4.2.0');
+    src: url('../font/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),
+    url('../font/fontawesome-webfont.woff?v=4.2.0') format('woff'),
+    url('../font/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),
+    url('../font/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -44,6 +56,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{background: #e6e7e8;padding: 0;margin: 0;font-size: 12px; font-family: "arial";color: #000}
+
+.header{background: url("../images/header-bg.png") 0 0 repeat-x;height: 193px}
+.container,.header-container{width: 1070px;margin: 0 auto}
+.main-content{background: #fff;min-height: 500px}
+
+
 
 /*breadcumb*/
 .page-title.active{clear: both;border-bottom: 3px solid #28619b;}
@@ -53,7 +72,7 @@ table {
 .breadcumb a{color: #28619b;text-decoration: none;position: relative;padding-right: 20px;}
 .breadcumb a:before{position: absolute;top:3px;right: 4px;border-top: 4px solid transparent;border-bottom: 4px solid transparent;border-left:6px solid #28619b;width: 0;height: 0;content: ''}
 /*duan*/
-.container{width: 1067;margin: 0 auto;padding: 20px;background: #fff;}
+.container{padding: 20px;background: #fff;}
 .wrapper{background: #e6e7e8;}
 .content-duan{float: left;width: 786px;}
 .side-bar{float: right;width: 253px;margin-right: 13px;}

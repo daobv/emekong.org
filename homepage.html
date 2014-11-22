@@ -1,14 +1,19 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>homepage</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/uniform.aristo.css" type="text/css"media="all">
+    <link rel="stylesheet" href="css/style.css" type="text/css"media="all">
+    <link rel="stylesheet" href="css/style-homepage.css" type="text/css"media="all">
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/jquery.uniform.js"></script>
+    <script type="text/javascript" src="js/mekong.js"></script>
 </head>
 
 <body>
 <div class="header">
-    <div class="container">
+    <div class="header-container">
         <div class="header-top">
             header-top
         </div>
@@ -20,11 +25,11 @@
                     <input type="text" class="textbox" value="Nhập từ khóa">
                 </div>
                 <div class="btn-search">
-                    <select class="search-group">
-                        <option>Tin Tức</option>
-                        <option>Dự án đầu tư</option>
-                        <option>Hỗ trợ pháp lý</option>
-                        <option>Hỏi - đáp</option>
+                    <select name="search-group" id="search-group">
+                        <option value="tintuc">Tin Tức</option>
+                        <option value="duandautu">Dự án đầu tư</option>
+                        <option value="hotrophaply">Hỗ trợ pháp lý</option>
+                        <option value="hoidap">Hỏi - đáp</option>
                     </select>
                 </div>
             </div>
@@ -32,15 +37,36 @@
         <div class="megamenu"></div>
     </div>
 </div>
-<div class="main">
-    <div class="container">
-        <div class="main-content">
-            main-content
-        </div>
-        <div class="footer">footer</div>
-        <div class="bottom-footer">bottom footer</div>
+<div class="wrapper">
+<div class="container">
+<div class="head-page">
+    <div class="breadcumb">
+        <a href="#">Trang chủ</a>
+        <a href="">Dự án trong nước</a>
+        <a href="">Hà Nội</a>
+    </div>
+    <div class="language">
+        <select name="language" id="languge">
+            <option value="vietnam">Viet Nam</option>
+            <option value="English">English</option>
+            <option value="Singapore">Singapore</option>
+        </select>
     </div>
 </div>
+<!-- end head-page -->
+<div class="main-content">
+<div class="page-title active">
+    <h4>Hà Nội</h4>
+</div>
+
+<!-- end main content -->
+
+<!-- end sidebar -->
+</div>
+</div>
+<!-- end wrapper -->
+<div class="footer"></div>
+<!-- end footer -->
 
 
 </body>
