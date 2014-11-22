@@ -31,6 +31,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -40,7 +41,12 @@ body {
 	line-height: 1;
 	font-size: 12.5px;
 	font-family: arial;
+    background: #e6e7e8;
+    color: #000
 }
+*{box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box}
+a{text-decoration: none}
+a:hover{text-decoration: underline}
 ol, ul {
 	list-style: none;
 }
@@ -56,7 +62,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{background: #e6e7e8;padding: 0;margin: 0;font-size: 12px; font-family: "arial";color: #000}
+
 
 .header{background: url("../images/header-bg.png") 0 0 repeat-x;height: 193px}
 .container,.header-container{width: 1070px;margin: 0 auto}

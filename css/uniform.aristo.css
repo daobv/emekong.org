@@ -293,7 +293,7 @@ input.uniform-input,
 select.uniform-multiselect,
 textarea.uniform {
   font-size: 14px;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #777;
   background-color: #a1cbe2;
@@ -318,7 +318,7 @@ textarea.uniform {
 /* Uploader */
 div.button span {
   font-weight: bold;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 13px;
   letter-spacing: 1px;
   text-transform: uppercase; }
@@ -333,10 +333,11 @@ div.selector {
   color: #464545;
   font-size: 14px; }
   div.selector span {
+      width: 100%!important;
     color: #666;
     text-shadow: 0 1px 0 white; }
   div.selector select {
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 1em;
     border: solid 1px white; }
   div.selector.disabled span, div.selector.disabled.active span {
