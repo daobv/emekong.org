@@ -3,11 +3,15 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Chi tiết dự án</title>
     <link rel="stylesheet" href="css/uniform.aristo.css" type="text/css"media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css"media="all">
+    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css"media="all">
     <link rel="stylesheet" href="css/style-homepage.css" type="text/css"media="all">
     <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery.uniform.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/mekong.js"></script>
 </head>
 
@@ -16,7 +20,6 @@
     <div class="header-container">
         <h1 class="logo"><a href="#"><img src="images/logo.png" /> </a></h1>
         <div class="header-wrap">
-
             <div class="header-top">
                <ul class="top-link">
                    <li class="parent item">
@@ -89,6 +92,9 @@
 <div class="wrapper ">
     <div class="container">
         <div class="head-page">
+            <ul class="breadcumb">
+                <li class="current">Trang chủ</li>
+            </ul>
             <div class="language">
                 <select name="language" id="languge">
                     <option value="vietnam">Viet Nam</option>
@@ -107,7 +113,7 @@
                     </div>
                     <div class="find-project-content">
                         <div class="find-box-search">
-                            <input type="text" class="textbox" value="Nhập từ khóa tìm kiếm">
+                            <input type="text" class="textbox" placeholder="Nhập từ khóa tìm kiếm">
                         </div>
                         <div class="find-box">
                             <label for="">Loại dự án</label>
@@ -141,7 +147,108 @@
 
                     </div>
                 </div>
-                <div class="project-tabs"></div>
+                <div class="project-tabs" id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">Dự án mới</a></li>
+                        <li><a href="#tabs-2">Dự án trọng điểm Quốc gia</a></li>
+                        <li><a href="#tabs-3">Dự án đầu tư nước ngoài</a></li>
+                        <li><a href="#tabs-4">Dự án Doanh nghiệp</a></li>
+                        <li><a href="#tabs-5">Dự án Trong nước</a></li>
+                    </ul>
+                    <div id="tabs-1" class="tab-content">
+                        <ul class="bxslider">
+                            <li>
+                                <ul class="item-list">
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new ">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article  sale">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new ">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="item-list">
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new ">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article  sale">
+                                            <img src="media/duan1.jpg" alt="">
+                                            <h3 class="article-name">Việt Phú Garden</h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tabs-2" class="tab-content">
+                        a
+                    </div>
+                    <div id="tabs-3" class="tab-content">
+                        b
+                    </div>
+                    <div id="tabs-4" class="tab-content"></div>
+                    <div id="tabs-5" class="tab-content"></div>
+
+
+                </div>
             </div>
         </div>
 

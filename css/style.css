@@ -63,6 +63,10 @@ table {
 	border-spacing: 0;
 }
 
+::-webkit-input-placeholder { color: inherit!important;font-size: inherit !important;}
+:-moz-placeholder { color: inherit!important;font-size: inherit !important;}
+::-moz-placeholder { color: inherit!important;font-size: inherit !important;}
+:-ms-input-placeholder { color: inherit!important;font-size: inherit !important;}
 
 .header{background: url("../images/header-bg.png") 0 0 repeat-x;height: 193px}
 .container,.header-container{width: 1070px;margin: 0 auto}
@@ -73,12 +77,15 @@ table {
 /*breadcumb*/
 .page-title.active{clear: both;border-bottom: 3px solid #28619b;}
 .page-title.active h4{display: block;color: #fff;text-transform: uppercase;background: #28619b;height: 23px;line-height: 26px;border-top-left-radius: 10px;border-top-right-radius: 10px;padding-left: 15px;width: 179px;font-weight: bold;}
-.head-page .breadcumb{float:left;}
+.breadcumb{float:left;}
+.breadcumb li{float: left;;white-space: nowrap}
+.breadcumb li.current{color: #333;font-weight: bold}
+.breadcumb li a{color: #28619b;text-decoration: none;position: relative;padding-right: 20px;white-space: nowrap}
+.breadcumb li a:before{position: absolute;top:3px;right: 4px;border-top: 4px solid transparent;border-bottom: 4px solid transparent;border-left:6px solid #28619b;width: 0;height: 0;content: ''}
+.head-page{margin-bottom: 10px}
 .head-page .language{float: right}
-.breadcumb a{color: #28619b;text-decoration: none;position: relative;padding-right: 20px;}
-.breadcumb a:before{position: absolute;top:3px;right: 4px;border-top: 4px solid transparent;border-bottom: 4px solid transparent;border-left:6px solid #28619b;width: 0;height: 0;content: ''}
 /*duan*/
-.container{padding: 20px;background: #fff;overflow: hidden;}
+.container{padding:10px 10px;background: #fff;overflow: hidden;}
 .wrapper{background: #e6e7e8;}
 .content-duan{float: left;width: 786px;}
 .side-bar{float: right;width: 253px;margin-right: 13px;}
@@ -112,3 +119,10 @@ table {
 .detail-main .tab-content .product-image{margin: 10px 0}
 .detail-main .tab-content .product-image img{margin: 0 auto;width: 656px;display: block;}
 .detail-main .tab-content .product-image p{text-align: center;font-style: italic;font-weight: bold;color: #000;padding: 15px 0}
+
+
+/*clear */
+.container:after,
+.head-page:after,
+#tabs > ul:after
+{content: " ";display:  block; clear: both;margin: 0;padding: 0;height: 0;overflow: hidden}
