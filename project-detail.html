@@ -15,27 +15,75 @@
 <body>
 	<div class="header">
     <div class="header-container">
-        <div class="header-top">
-            header-top
-        </div>
+        <h1 class="logo"><a href="#"><img src="images/logo.png" /> </a></h1>
         <div class="header-wrap">
-            <h1 class="logo"><a href="#"><img src="images/logo.png" /> </a></h1>
-            <h2 class="tagline">Sàn giao dịch chứng khoán đầu tư</h2>
+
+            <div class="header-top">
+               <ul class="top-link">
+                   <li class="parent item">
+                       <a href="#">Giới thiệu</a>
+                       <ul class="dropdown">
+                           <li><a href="#"> Giới thiệu 1</a></li>
+                           <li><a href="#"> Giới thiệu 2</a></li>
+                           <li><a href="#"> Giới thiệu 3</a></li>
+                           <li><a href="#"> Giới thiệu 4</a></li>
+                           <li><a href="#"> Giới thiệu 5</a></li>
+
+                       </ul>
+                   </li>
+                   <li class="item"><a href="#">Liên hệ</a></li>
+                   <li class="parent item">
+                       <a href="#">Trợ giúp</a>
+                       <ul class="dropdown">
+                           <li><a href="#"> Trợ giúp 1</a></li>
+                           <li><a href="#"> Trợ giúp 2</a></li>
+                           <li><a href="#"> Trợ giúp 3</a></li>
+                           <li><a href="#"> Trợ giúp 4</a></li>
+                           <li><a href="#"> Trợ giúp 5</a></li>
+                       </ul>
+                   </li>
+               </ul>
+                <ul class="account-top">
+                    <li class=user-name><a href="#">Nguyễn Duy Thơ</a></li>
+                    <li class="signout"><a href="#">Thoát</a></li>
+                    <li class="register"><a href="#">Đăng ký</a></li>
+                </ul>
+            </div>
             <div class="header-right">
-                <div class="search-box">
-                    <input type="text" class="textbox" value="Nhập từ khóa">
-                </div>
-                <div class="btn-search">
-                    <select name="search-group" id="search-group">
-                        <option value="tintuc">Tin Tức</option>
-                        <option value="duandautu">Dự án đầu tư</option>
-                        <option value="hotrophaply">Hỗ trợ pháp lý</option>
-                        <option value="hoidap">Hỏi - đáp</option>
-                    </select>
+                <h2 class="tagline">Sàn giao dịch các dự án đầu tư</h2>
+                <div class="header-search">
+                    <div class="search-box">
+                        <input type="text" class="textbox" value="Nhập từ khóa">
+                    </div>
+                    <div class="btn-search">
+                        <select name="search-group" id="search-group">
+                            <option value="tintuc">Tin Tức</option>
+                            <option value="duandautu">Dự án đầu tư</option>
+                            <option value="hotrophaply">Hỗ trợ pháp lý</option>
+                            <option value="hoidap">Hỏi - đáp</option>
+                        </select>
+                        <button class="button btn-search" type="submit">Tìm kiếm</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="megamenu"></div>
+
+        <ul class="navigation">
+            <li><a href="#">Trang chủ</a></li>
+            <li class="parent">
+                <a href="#">Tin tức</a>
+                <ul class="sub-nav">
+                    <li><a href="#">Tin tức dự án</a></li>
+                    <li><a href="#">Báo cáo phân tích</a></li>
+                    <li><a href="#">Mẫu văn bản</a></li>
+                    <li><a href="#">Chính sách mới</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Dự án đầu tư</a></li>
+            <li><a href="#">Hỗ trợ pháp lý</a></li>
+            <li><a href="#">Hỏi đáp</a></li>
+        </ul>
+        <!--End Megamenu-->
     </div>
 </div>
 	<!-- end header -->
