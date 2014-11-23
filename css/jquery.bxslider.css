@@ -16,7 +16,7 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 0 auto 10px;
+	margin: 0 auto 0;
 	padding: 0;
 	*zoom: 1;
 }
@@ -105,13 +105,13 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: -10px;
+	left: -30px;
 	background: url(../images/bx-prev.png) no-repeat 0 0;
     opacity: 0.8;
 }
 
 .bx-wrapper .bx-next {
-	right: -10px;
+	right: -30px;
 	background: url(../images/bx-next.png) no-repeat 0 0;
     opacity: 0.8;
 }
@@ -129,7 +129,7 @@
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
 	top: 50%;
-	margin-top: -16px;
+	margin-top: -26px;
 	outline: 0;
 	width:26px;
 	height:55px;

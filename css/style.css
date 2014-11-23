@@ -85,7 +85,7 @@ table {
 .head-page{margin-bottom: 10px}
 .head-page .language{float: right}
 /*duan*/
-.container{padding:10px 10px;background: #fff;overflow: hidden;}
+.container{padding:10px 10px;background: #fff;}
 .wrapper{background: #e6e7e8;}
 .content-duan{float: left;width: 786px;}
 .side-bar{float: right;width: 253px;margin-right: 13px;}
@@ -124,5 +124,9 @@ table {
 /*clear */
 .container:after,
 .head-page:after,
-#tabs > ul:after
+#tabs > ul:after,
+.project-tabs > ul:after,
+.support-tabs > ul:after,
+.project-block:after,
+.partner-slider:after
 {content: " ";display:  block; clear: both;margin: 0;padding: 0;height: 0;overflow: hidden}
