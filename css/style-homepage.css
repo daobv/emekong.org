@@ -90,7 +90,10 @@
     float: left;
     border: 2px solid #a5a6ac;border-radius: 20px;-webkit-border-radius: 20px;-moz-border-radius: 20px; width: 266px}
 
-.find-project .title h2,.project-tabs ul li a{
+.find-project .title h2,
+.project-tabs ul li a,
+.support-tabs .tab-content
+{
     border-radius: 10px 10px 0 0;-webkit-border-radius: 10px 10px 0 0;-moz-border-radius:10px 10px 0 0;
     line-height: 35px;;color: #fff;text-align: center;
     background: #35a2d3; /* Old browsers */
@@ -151,11 +154,21 @@
 /*  project-tabs */
 .project-tabs{float: right;width: 760px}
 /*.project-tabs >ul {margin-bottom: 2px}*/
-.project-tabs ul li a{float: left;white-space: nowrap; display: inline-block;font-size: 12px;padding: 0 15px;margin-right: 2px;margin-bottom: -2px}
+.project-tabs ul li a,.support-tabs ul li a{float: left;white-space: nowrap; display: inline-block;font-size: 12px;padding: 0 15px;margin-right: 2px;margin-bottom: -2px}
 .project-tabs ul li.ui-tabs-active a{background: #e1f3fd;border: 2px solid #a5a6ac;border-bottom: none;color: #004d77;font-weight: bold}
 .project-tabs .tab-content{
-    background: #e1f4fd;border: 2px solid #a5a6ac;height: 375px;padding: 10px;
+    background: #e1f4fd;border: 2px solid #a5a6ac;height: 375px;padding: 20px 30px 0;
     border-radius: 0 10px 10px 10px;-webkit-border-radius: 0 10px 10px 10px;-moz-border-radius: 0 10px 10px 10px
 }
-.project-tabs .item-list li{float: left;width: 33.33%}
+.project-tabs .item-list li{float: left;margin-bottom: 12px;width: 31.33%;margin-right: 2%}
+.project-tabs .item-article{height: 157px;position: relative;background: #fff;border: 1px solid #ccc; border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;font-size: 11px;color: #333;text-align: center;padding:15px 10px 10px}
+.project-tabs .item-article .image-wrap{width: 166px;height: 95px;overflow: hidden;display: inline-block;margin-bottom: 10px}
+.project-tabs .item-article .image-wrap img{display: inline-block;}
+.project-tabs .article-name{font-weight: bold}
+.project-tabs .bx-wrapper .bx-viewport{left: 10px}
+.project-tabs .bx-wrapper .bx-controls-direction a{top: 44%}
+.project-tabs .bx-wrapper .bx-prev{left: -30px}
+.project-tabs .bx-wrapper .bx-next{right: -30px}
 
+/*support tabs*/
+.support-tabs{clear: both}
