@@ -94,8 +94,7 @@ table {
 .side-bar .box .box-side-bar{padding: 0 15px;background-color: #c1e1fb;}
 .side-bar .box .box-side-bar li{border-bottom: 1px solid #fff;padding: 6px 0;}
 .side-bar .box .box-side-bar li p{}
-.find-project {background: #e6e6e7;border: 2px solid #a5a6ac;border-radius: 10px;}
-.find-project-content .find-box{clear: both;padding: 0 22px;}
+
 
 /*project detail*/
 .detail-miss{margin: 20px 0 8px;}

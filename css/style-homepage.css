@@ -42,7 +42,7 @@
 }
 .btn-search div.selector span{font-weight: normal;padding-left: 15px;padding-right: 20px;position: relative}
 .btn-search div.selector span:after{font-family: "FontAwesome";content: "\f0d7";font-size:18px; color: #ff7f05;position: absolute;right: 10px }
-.btn-search div.selector{background: none;padding: 0;width: 89px !important;line-height: 29px;height: 29px;margin-left: -10px}
+.btn-search div.selector{background: none;padding: 0;width: 89px !important;line-height: 29px;height: 29px;margin-left: -10px;border: none}
 .btn-search button{border: none;background: none;font-size: 14px;font-weight: bold;color: #fff;padding-right: 10px;}
 
 /* navigation */
@@ -66,8 +66,81 @@
 .navigation > li:last-of-type{background: none}
 .navigation > li > a{color: #fff;font-size: 14.5px;line-height: 39px;height: 39px;display: inline-block;position: relative}
 .navigation > li.parent:hover > a:after,.navigation > li.parent.active > a:after{font-family: "FontAwesome";content: "\f0d7";font-size:18px; color: #63647d;position: absolute;left: 50%;margin-left: -6px;bottom: -6px;line-height: 0}
-.sub-nav{position: absolute;left: 25px;bottom:-32px;display: none}
+.sub-nav{position: absolute;left: 25px;bottom:-30px;display: none}
 .navigation > li.parent:hover .sub-nav,.navigation > li.parent.active .sub-nav{display: block}
 .sub-nav li{float: left;border-right: 1px solid #cacaca;border-left: 1px solid #fff;line-height: 20px;padding:0 15px;height: 20px;margin-top: 10px}
 .sub-nav li:first-of-type{border: none;padding-left: 0;}
 .sub-nav li a{font-size: 13px; color: #363636;font-weight: bold;display: inline-block}
+
+/* homepage content */
+.project-block{display: block;clear: both}
+.find-project {
+    background: #ffffff; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iI2E3YWFhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  #ffffff 0%, #a7aaac 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#a7aaac)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#a7aaac 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#a7aaac 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#a7aaac 99%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#a7aaac 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a7aaac',GradientType=0 ); /* IE6-8 */
+
+    border: 2px solid #a5a6ac;border-radius: 20px;-webkit-border-radius: 20px;-moz-border-radius: 20px; width: 266px}
+
+.find-project .title h2{
+    border-radius: 18px 18px 0 0;-webkit-border-radius: 18px 18px 0 0;-moz-border-radius:18px 18px 0 0;
+    line-height: 35px;font-size: 20px;text-transform: uppercase;color: #fff;text-align: center;
+    background: #35a2d3; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM1YTJkMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzI1NWY4YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  #35a2d3 0%, #255f8b 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#35a2d3), color-stop(99%,#255f8b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #35a2d3 0%,#255f8b 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #35a2d3 0%,#255f8b 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #35a2d3 0%,#255f8b 99%); /* IE10+ */
+    background: linear-gradient(to bottom,  #35a2d3 0%,#255f8b 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35a2d3', endColorstr='#255f8b',GradientType=0 ); /* IE6-8 */
+
+}
+
+.find-project-content {padding: 20px 30px }
+.find-box label{display: block;font-weight: bold;color: #2f79b1;margin-bottom: 5px;margin-left: 3px}
+.find-box{margin-bottom: 15px}
+.find-box div.selector{width: 100% !important;}
+.find-box-search{
+    position: relative;
+    padding-left: 30px;
+    border: 2px solid #535354;
+    width: 100%;
+    margin-bottom:15px;
+    border-radius: 10px;-webkit-border-radius: 10px;
+
+    background: #ebebeb; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViZWJlYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5YTlkOWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ebebeb 0%, #9a9d9e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#9a9d9e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ebebeb 0%,#9a9d9e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ebebeb 0%,#9a9d9e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ebebeb 0%,#9a9d9e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ebebeb 0%,#9a9d9e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#9a9d9e',GradientType=0 ); /* IE6-8 */
+}
+.find-box-search input{
+    width: 100%;
+    background: none;border: none;
+    line-height: 30px;height: 30px;
+    color: #666;
+
+}
+.find-box-search:before{
+    content: "\f002";
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    font-size: 17px;
+    font-family: "FontAwesome";
+}
+.btn-find-box{width: 100%;text-align: center}
+.find-project .button{background: url("../images/find-search.png") 0 0 no-repeat;width: 115px;height: 27px;border: none;background-color: transparent;display: inline-block;}
