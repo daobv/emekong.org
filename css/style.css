@@ -179,6 +179,9 @@ width: 100%;border-bottom: 1px #d7d7d7 solid; }
 .support-tabs > ul:after,
 .project-block:after,
 .partner-slider:after,
-.footer ul:after,.box:after,.box ul:after,.sidebar-content-duan .box:after
+.footer ul:after,.box:after,.box ul:after,.sidebar-content-duan .box:after,
+.grey-tabs > ul:after,
+.grey-tabs > ul:after,
+.home-news-cat > ul:after
 {content: " ";display:  block; clear: both;margin: 0;padding: 0;height: 0;overflow: hidden}
 
