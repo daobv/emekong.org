@@ -152,6 +152,9 @@ table {
 .support-tabs > ul:after,
 .project-block:after,
 .partner-slider:after,
-.footer ul:after
+.footer ul:after,
+.grey-tabs > ul:after,
+.grey-tabs > ul:after,
+.home-news-cat > ul:after
 {content: " ";display:  block; clear: both;margin: 0;padding: 0;height: 0;overflow: hidden}
 
