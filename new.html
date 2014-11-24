@@ -89,11 +89,11 @@
 	<div class="wrapper">
 		<div class="container">
 		<div class="head-page">
-			<div class="breadcumb">
-				<a href="#">Trang chủ</a>
-				<a href="">Dự án trong nước</a>
-				<a href="">Hà Nội</a>
-			</div>
+			<ul class="breadcumb">
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#">Dự án trong nước</a></li>
+				<li class="current">Hà Nội</li>
+			</ul>
 			<div class="language">
 				<select name="language" id="languge">
 					<option value="vietnam">Viet Nam</option>
@@ -186,9 +186,14 @@
 						<div class="marketing-new-content">
 							<div class="marketing-new-main">
 								<a href="#">
-									<img src="images/new1.jpg" alt="">
+									
 									<div class="marketing-new-description">
 										<p>
+										<img src="images/new1.jpg" alt="">
+										<h3>
+											Giá thuê kiốt mới ở chợ Đồng Xuân bị tiểu thương phản đối 
+										</h3>
+										
 											Nhiều tuyến cầu đường mới ở Hà Nội đã và đang được hoàn thành và đưa vào sử dụng trong thời gian gần đây như các dự án cầu Đông Trù, đường 5 kéo dài, cầu Nhật Tân... 
 										</p>
 									</div>
@@ -242,9 +247,13 @@
 						<div class="marketing-new-content">
 							<div class="marketing-new-main">
 								<a href="#">
-									<img src="images/new1.jpg" alt="">
+									
 									<div class="marketing-new-description">
 										<p>
+										<img src="images/new1.jpg" alt="">
+										<h3>
+											Giá thuê kiốt mới ở chợ Đồng Xuân bị tiểu thương phản đối 
+										</h3>
 											Nhiều tuyến cầu đường mới ở Hà Nội đã và đang được hoàn thành và đưa vào sử dụng trong thời gian gần đây như các dự án cầu Đông Trù, đường 5 kéo dài, cầu Nhật Tân... 
 										</p>
 									</div>
@@ -300,6 +309,9 @@
 								<a href="#">
 									<img src="images/new1.jpg" alt="">
 									<div class="marketing-new-description">
+										<h3>
+											Giá thuê kiốt mới ở chợ Đồng Xuân bị tiểu thương phản đối
+										</h3>
 										<p>
 											Nhiều tuyến cầu đường mới ở Hà Nội đã và đang được hoàn thành và đưa vào sử dụng trong thời gian gần đây như các dự án cầu Đông Trù, đường 5 kéo dài, cầu Nhật Tân... 
 										</p>
@@ -356,6 +368,9 @@
 								<a href="#">
 									<img src="images/new1.jpg" alt="">
 									<div class="marketing-new-description">
+										<h3>
+											Giá thuê kiốt mới ở chợ Đồng Xuân bị tiểu thương phản đối 
+										</h3>
 										<p>
 											Nhiều tuyến cầu đường mới ở Hà Nội đã và đang được hoàn thành và đưa vào sử dụng trong thời gian gần đây như các dự án cầu Đông Trù, đường 5 kéo dài, cầu Nhật Tân... 
 										</p>
@@ -514,11 +529,11 @@
 						</ul>
 					</div>
 					
-					<div class="view-new box">
+					<div class="view-new view-question box">
 						<div class="page-title active">
 							<h4>Hỏi-Đáp</h4>
 						</div>
-						<ul>
+						<ul class="box-list">
 							<li><a href="#">Tư vấn xây nhà diện tích 6x22m cho người tuổi Gíap Tý</a></li>
 							<li><a href="">Chi phí xây dựng nhà 1 Trệt,1 lầu</a></li>
 							<li><a href="">Tư vấn sửa nhà,thêm WC trên lầu 1</a></li>
@@ -534,146 +549,112 @@
 		</div>
 		<!-- end main content -->
 		<div class="side-bar">
-			<div class="find-project">
-				<div class="title">
-					<h2>Tìm kiếm dự án</h2>
-				</div>
-				<div class="find-project-content">
-					<input type="text" placeholder="Nhập từ khóa tìm kiếm">
-					<div class="find-box">
-						<label for="">Loại dự án</label>
-						<select name="" id="">
-							<option value="">Đầu tư trong nước</option>
-							<option value="">Đầu tư nước ngoài</option>
-						</select>
-					</div>
-					<div class="find-box">
-						<label for="">Lĩnh vực</label>
-						<select name="" id="">
-							<option value="">Công nghiệp</option>
-							<option value="">Nông nghiệp</option>
-						</select>
-					</div>
-					<div class="find-box">
-						<label for="">Quốc gia</label>
-						<select name="" id="">
-							<option value="">Việt Nam</option>
-							<option value="">English</option>
-						</select>
-					</div>
-					<div class="find-box">
-						<label for="">Tỉnh thành phố</label>
-						<select name="" id="">
-							<option value="">Hà Nội</option>
-							<option value="">Tp:Hồ Chí Minh</option>
-						</select>
-					</div>
-					<input type="submit" value="Tìm kiếm">
-				</div>
-			</div>
-			<!-- end tim kiem du an -->
 			<div class="help-information box">
-				<div class="title">
-					<h4>Hỗ trợ thông tin</h4>
-				</div>
-				<div class="help-information-content box-side-bar">
-					<ul>
-						<li>
-							<p>Liên hệ tư vấn dư án</p>
-						</li>
-						<li>
-							<span>Hotline</span>
-							<span>0915.789.716</span>
-						</li>
-						<li>
-							<span>Hỗ trợ trực tuyến:</span>
-							<span>yahoo</span>
-							<span>Skype</span>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- end hỗ trợ thông tin -->
-			<div class="catalogue-project box">
-				<div class="title">
-					<h4>Danh mục dự án theo tỉnh/TP</h4>
-				</div>
-				<div class="help-information-content box-side-bar">
-					<ul>
-						<li>
-							<p>An Giang</p>
-						</li>
-						<li>
-							<p>Bình Dương</p>
-						</li>
-						<li>
-							<p>Bình Định</p>
-						</li>
-						<li>
-							<p>Bắc Ninh</p>
-						</li>
-						<li>
-							<p>Cần Thơ </p>
-						</li>
-						<li>
-							<p>Đà Nẵng</p>
-						</li>
-						<li>
-							<p>Đồng Nai</p>
-						</li>
-						<li>
-							<p>Hòa Bình</p>
-						</li>
-						<li>
-							<p>Hà Nội</p>
-						</li>
-						<li>
-							<p>Hà Nam</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- end danh mục dư án -->
-			<div class="catalogue-project box">
-				<div class="title">
-					<h4>Nhóm tin khác</h4>
-				</div>
-				<div class="help-information-content box-side-bar">
-					<ul>
-						<li>
-							<p>An Giang</p>
-						</li>
-						<li>
-							<p>Bình Dương</p>
-						</li>
-						<li>
-							<p>Bình Định</p>
-						</li>
-						<li>
-							<p>Bắc Ninh</p>
-						</li>
-						<li>
-							<p>Cần Thơ </p>
-						</li>
-						<li>
-							<p>Đà Nẵng</p>
-						</li>
-						<li>
-							<p>Đồng Nai</p>
-						</li>
-						<li>
-							<p>Hòa Bình</p>
-						</li>
-						<li>
-							<p>Hà Nội</p>
-						</li>
-						<li>
-							<p>Hà Nam</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- end nhóm tin khác -->
+						<div class="title">
+							<h4>Hỗ trợ thông tin</h4>
+						</div>
+						<div class="help-information-content box-side-bar">
+							<ul>
+								<li>
+									<p>Liên hệ tư vấn dư án</p>
+								</li>
+								<li>
+									<span>Hotline</span>
+									<span>0915.789.716</span>
+								</li>
+								<li>
+									<span>Hỗ trợ trực tuyến:</span>
+									<a class="yahoo"href="#">yahoo</a>
+									<a class="skype"href="#">Skype</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+			<!-- end tim kiem du an -->
+
+			<div class="rated-new box">
+						<div class="page-title active">
+							<h4>Tin nhiều người đọc</h4>
+						</div>
+						<div class="box">
+							<div class="box-item">
+								<a href="#">
+									<img src="images/new1.jpg">
+									<div class="box-item-description">
+										<p>
+											Tp.HCM: Hàng loạt dự án bất động sản "khủng" được chào bán trong tháng 11
+										</p>
+									</div>
+								</a>
+							</div>	
+							<div class="box-item">
+								<a href="#">
+									<img src="images/new1.jpg">
+									<div class="box-item-description">
+										<p>
+											Tp.HCM: Hàng loạt dự án bất động sản "khủng" được chào bán trong tháng 11
+										</p>
+									</div>
+								</a>
+							</div>	
+							<div class="box-item">
+								<a href="#">
+									<img src="images/new1.jpg">
+									<div class="box-item-description">
+										<p>
+											Tp.HCM: Hàng loạt dự án bất động sản "khủng" được chào bán trong tháng 11
+										</p>
+									</div>
+								</a>
+							</div>	
+							<div class="box-item">
+								<a href="#">
+									<img src="images/new1.jpg">
+									<div class="box-item-description">
+										<p>
+											Tp.HCM: Hàng loạt dự án bất động sản "khủng" được chào bán trong tháng 11
+										</p>
+									</div>
+								</a>
+							</div>	
+							<div class="box-item">
+								<a href="#">
+									<img src="images/new1.jpg">
+									<div class="box-item-description">
+										<p>
+											Tp.HCM: Hàng loạt dự án bất động sản "khủng" được chào bán trong tháng 11
+										</p>
+									</div>
+								</a>
+							</div>	
+							<div class="box-item">
+								<a href="#">
+									<img src="images/new1.jpg">
+									<div class="box-item-description">
+										<p>
+											Tp.HCM: Hàng loạt dự án bất động sản "khủng" được chào bán trong tháng 11
+										</p>
+									</div>
+								</a>
+							</div>	
+						</div>
+					</div>
+					<div class="view-new box">
+						<div class="page-title active">
+							<h4>Chủ đề được quan tâm</h4>
+						</div>
+						<ul class="box-list">
+							<li><a href="#">Gói hỗ trợ 30.000 tỷ đồng</a></li>
+							<li><a href="">Cập nhật tiến độ dự án</a></li>
+							<li><a href="">Bất động sản Hà Nội</a></li>
+							<li><a href="">Bất động sản TPHCM</a></li>
+							<li><a href="">Thị trường căn hộ cao cấp</a></li>
+							<li><a href="">Thị trường căn hộ cho thuê</a></li>
+							<li><a href="">Nhà ở xã hội</a></li>
+							<li><a href="">Bất động sản Đà Nẵng</a></li>
+						</ul>
+						<a href="#">Xem tất cả</a>
+					</div>
 			<div class="banner box">
 				<img src="media/duan1.jpg">
 			</div>
