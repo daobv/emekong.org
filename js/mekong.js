@@ -7,6 +7,9 @@ $( document ).ready(function() {
     $( "#tabs-tygia" ).tabs();
     $( "#tabs-home-cat" ).tabs();
     $( "#tabs-media" ).tabs();
+    $( "#tabs-FAQ" ).tabs();
+    $( "#tabs-home-cate" ).tabs();
+
 
 
     $('.bxslider').bxSlider();

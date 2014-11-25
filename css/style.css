@@ -155,6 +155,12 @@ table {
 .footer ul:after,
 .grey-tabs > ul:after,
 .grey-tabs > ul:after,
-.home-news-cat > ul:after
+.home-news-cat > ul:after,
+.tygia-tabs .tab-content li:after,
+.tab-content .bot-tabs:after,
+.home-news-cate > ul:after,
+.home-news-cate .news-list li:after,
+.home-media-tabs > ul:after,
+.home-news:after
 {content: " ";display:  block; clear: both;margin: 0;padding: 0;height: 0;overflow: hidden}
 
