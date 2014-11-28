@@ -82,7 +82,7 @@ table {
 .breadcumb li{float: left;;white-space: nowrap;font-size: 14px;}
 .breadcumb li.current{color: #333;font-weight: bold}
 .breadcumb li a{color: #28619b;text-decoration: none;position: relative;padding-right: 20px;white-space: nowrap;}
-.breadcumb li a:before{position: absolute;top:3px;right: 4px;border-top: 4px solid transparent;border-bottom: 4px solid transparent;border-left:6px solid #28619b;width: 0;height: 0;content: ''}
+.breadcumb li a:before{position: absolute;top:4px;right: 4px;border-top: 4px solid transparent;border-bottom: 4px solid transparent;border-left:6px solid #28619b;width: 0;height: 0;content: ''}
 .head-page{margin-bottom: 10px;}
 .head-page .language{float: right}
 .head-page .language .div.selector{}
