@@ -79,9 +79,9 @@ table {
 .page-title.active{clear: both;border-bottom: 3px solid #28619b;}
 .page-title.active h4{display: block;color: #fff;text-transform: uppercase;background: #28619b;height: 23px;line-height: 26px;border-top-left-radius: 10px;border-top-right-radius: 10px;padding-left: 15px;width: 179px;font-weight: bold;}
 .breadcumb{float:left;}
-.breadcumb li{float: left;;white-space: nowrap}
+.breadcumb li{float: left;;white-space: nowrap;font-size: 14px;}
 .breadcumb li.current{color: #333;font-weight: bold}
-.breadcumb li a{color: #28619b;text-decoration: none;position: relative;padding-right: 20px;white-space: nowrap}
+.breadcumb li a{color: #28619b;text-decoration: none;position: relative;padding-right: 20px;white-space: nowrap;}
 .breadcumb li a:before{position: absolute;top:3px;right: 4px;border-top: 4px solid transparent;border-bottom: 4px solid transparent;border-left:6px solid #28619b;width: 0;height: 0;content: ''}
 .head-page{margin-bottom: 10px;}
 .head-page .language{float: right}
@@ -91,7 +91,7 @@ table {
 .container{padding:10px 10px 0;background: #fff;}
 .wrapper{background: #e6e7e8;}
 .content-duan{float: left;width: 751px;}
-.side-bar{float: right;width: 274px;margin-right: 13px;}
+.side-bar{float: right;width: 266px;}
 .content-duan .item{padding: 11px 0 15px;border-bottom: 2px dotted #e6e6e6;clear: both;width: 100%}
 .content-duan .item:last-child{border: none;}
 .content-duan .item .item-image{display: inline-block;vertical-align: top;}
@@ -121,7 +121,7 @@ table {
 .detail-miss-content-box{margin-top:11px;}
 .detail-miss-content-box .name{color: #3b78bb}
 .detail-main ul{background: #055699;border-radius: 10px;clear: both;overflow: hidden;}
-.detail-main li{float: left;padding: 0 20px 0 10px;height: 40px;line-height: 40px;}
+.detail-main li{float: left;padding: 0 18px 0 10px;height: 40px;line-height: 40px;}
 .detail-main li a{color: #fff;text-decoration: none;font-weight: bold;font-size: 13px;}
 .detail-main li.ui-tabs-active a{padding: 0 5px;display: block;color: #19277a;background: #fff;border-top-left-radius: 5px;border-top-right-radius: 5px;margin-top:5px;line-height: 35px;font-size: 13px;}
 .detail-main .page-title h6{color: #000;font-weight: bold;}
@@ -182,7 +182,7 @@ input.buttonSend{color: #055699;cursor: pointer;font-size: 11px;font-weight: bol
 /*new detail*/
 .content-duan .page-title{font-weight: bold;font-size: 17px; color: #055699;word-wrap: break-word;}
 .date p{font-size: 12px;color: #8f8f8f;margin-bottom: 10px;padding-top: 10px;}
-.topic p{font-family: bold;}
+.topic p{font-family: bold;font-size: 14px;}
 .topic a{ color: #055699; text-decoration: none;}
 .box-list.detail{margin-top:5px;}
 .box-list.detail a{border-bottom: 1px dashed #DDDDDD;margin-top: 10px;padding-bottom: 5px;padding-right: 10px; font-weight: bold;color: #055699;}
@@ -319,16 +319,16 @@ a{cursor: pointer}
 }
 .find-project .title-prj h2{font-size: 20px;text-transform: uppercase;border-radius: 18px 18px 0 0;-webkit-border-radius: 18px 18px 0 0;-moz-border-radius:18px 18px 0 0;}
 
-.find-project-content {padding: 20px 30px }
+.find-project-content {padding: 15px 20px }
 .find-box label{display: block;font-weight: bold;color: #2f79b1;margin-bottom: 5px;margin-left: 3px}
-.find-box{margin-bottom: 15px}
+.find-box{margin-bottom: 10px}
 .find-box div.selector{width: 100% !important;}
 .find-box-search{
     position: relative;
     padding-left: 30px;
     border: 2px solid #535354;
     width: 100%;
-    margin-bottom:15px;
+    margin-bottom:10px;
     border-radius: 10px;-webkit-border-radius: 10px;
 
     background: #ebebeb; /* Old browsers */
